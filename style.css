@@ -190,20 +190,19 @@ box-shadow: 0px 15px 17px 0px rgba(116,124,255,0.38);
 }
 
 @media only screen and (max-width: 375px){
-    /* Background */
-body
-{
-    background-color: hsl(225, 100%, 94%);
-    background-image: url(images/pattern-background-desktop.svg);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
+    body
+    {
+        background-color: hsl(225, 100%, 94%);
+        background-image: url(images/pattern-background-desktop.svg);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
 
 /* Card */
 .card
@@ -214,7 +213,7 @@ body
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 350px;
+    width: 90%;
 }
 
 /* Illustration image */
@@ -222,6 +221,7 @@ body
 {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    width: 100%;
 }
 
 /* Title div */
@@ -262,7 +262,7 @@ body
     align-items: center;
     margin-bottom: 30px;
     padding: 20px;
-    width: 350px;
+    width: 85%;
 }
 
 /* Annual plan + note div */
@@ -270,7 +270,7 @@ body
 {
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 60%;
 }
 
 
@@ -302,21 +302,20 @@ body
     text-decoration: none;
 }
 
-/* Payment button */
-.button
-{
-    background-color: hsl(245, 75%, 52%);
-    font-weight: bold;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    width: 350px;
-    margin-bottom: 30px;
-    -webkit-box-shadow: 0px 15px 17px 0px rgba(116,124,255,0.38); 
-box-shadow: 0px 15px 17px 0px rgba(116,124,255,0.38);
-}
+    .button
+    {
+        background-color: hsl(245, 75%, 52%);
+        font-weight: bold;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        width: 285px;
+        margin-bottom: 30px;
+        -webkit-box-shadow: 0px 15px 17px 0px rgba(116,124,255,0.38);
+        box-shadow: 0px 15px 17px 0px rgba(116,124,255,0.38);
+    }
 
 .button > a
 {
