@@ -1,0 +1,356 @@
+/* CSS default settings to avoid any margin/padding conflicts at the beginning. */
+*
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Title */
+h1
+{
+    color: hsl(223, 47%, 23%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 28px;
+    font-weight: 1000;
+}
+
+/* Default font family */
+p
+{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+/* Default link settings */
+a{
+    text-decoration: none;
+}
+
+/* Background */
+body
+{
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Card */
+.card
+{
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+}
+
+/* Illustration image */
+.illustration
+{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+/* Title div */
+.title
+{
+    margin-bottom: 20px;
+}
+
+/* Informations and button div */
+.informations
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+
+/* Description text div */
+.description
+{
+    color: hsl(224, 23%, 55%);
+    font-size: 17px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+    text-align: center;
+    width: 80%;
+}
+
+/* Annual plan + note + "Change" link div */
+.annual-change
+{
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    width: 350px;
+}
+
+/* Annual plan + note div */
+.annual-note
+{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+
+/* Annual plan text */
+#annual-text
+{
+    font-weight: 900;
+    padding-bottom: 1px;
+}
+
+/* Annual plan price */
+#annual-price
+{
+    color: hsl(224, 23%, 55%);
+    padding-top: 1px;
+}
+
+/* "Change" link */
+.change
+{
+    color: hsl(245, 75%, 52%);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.change:hover
+{
+    color: #766cf1;
+    text-decoration: none;
+}
+
+/* Payment button */
+.button
+{
+    background-color: hsl(245, 75%, 52%);
+    font-weight: bold;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 350px;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 0px 15px 17px 0px rgba(116,124,255,0.38); 
+box-shadow: 0px 15px 17px 0px rgba(116,124,255,0.38);
+}
+
+.button > a
+{
+    color: white;
+    cursor: pointer;
+}
+
+.button:hover
+{
+    background-color: #766cf1;
+}
+
+/* "Cancel order" link */
+.cancel
+{
+    color: hsl(224, 23%, 55%);
+    font-weight: bold;
+}
+
+.cancel:hover
+{
+    color: hsl(223, 47%, 23%);
+}
+
+/* Bottom links : "Challenge" & "Coded by" */
+.attribution
+{
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a
+{
+    color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 375px){
+    /* Background */
+body
+{
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Card */
+.card
+{
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+}
+
+/* Illustration image */
+.illustration
+{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+/* Title div */
+.title
+{
+    margin-bottom: 20px;
+}
+
+/* Informations and button div */
+.informations
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+
+/* Description text div */
+.description
+{
+    color: hsl(224, 23%, 55%);
+    font-size: 17px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+    text-align: center;
+    width: 80%;
+}
+
+/* Annual plan + note + "Change" link div */
+.annual-change
+{
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    width: 350px;
+}
+
+/* Annual plan + note div */
+.annual-note
+{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+
+/* Annual plan text */
+#annual-text
+{
+    font-weight: 900;
+    padding-bottom: 1px;
+}
+
+/* Annual plan price */
+#annual-price
+{
+    color: hsl(224, 23%, 55%);
+    padding-top: 1px;
+}
+
+/* "Change" link */
+.change
+{
+    color: hsl(245, 75%, 52%);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.change:hover
+{
+    color: #766cf1;
+    text-decoration: none;
+}
+
+/* Payment button */
+.button
+{
+    background-color: hsl(245, 75%, 52%);
+    font-weight: bold;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 350px;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 0px 15px 17px 0px rgba(116,124,255,0.38); 
+box-shadow: 0px 15px 17px 0px rgba(116,124,255,0.38);
+}
+
+.button > a
+{
+    color: white;
+    cursor: pointer;
+}
+
+.button:hover
+{
+    background-color: #766cf1;
+}
+
+/* "Cancel order" link */
+.cancel
+{
+    color: hsl(224, 23%, 55%);
+    font-weight: bold;
+}
+
+.cancel:hover
+{
+    color: hsl(223, 47%, 23%);
+}
+
+/* Bottom links : "Challenge" & "Coded by" */
+.attribution
+{
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a
+{
+    color: hsl(228, 45%, 44%);
+}
+    
+}
